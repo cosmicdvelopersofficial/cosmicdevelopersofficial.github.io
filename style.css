@@ -1,0 +1,269 @@
+/* Frame10 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@400&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.frame-10 {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 1200px;
+  height: 1138px;
+}
+
+.rectangle {
+  position: absolute;
+  top: 23px;
+  left: 82px;
+  background-color: rgba(255, 255, 255, 1);
+  height: 55px;
+  width: 100%;
+}
+
+.frame {
+  position: absolute;
+  top: 20px;
+  left: 986px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-1 {
+  position: absolute;
+  top: 20px;
+  left: 1028px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-2 {
+  position: absolute;
+  top: 20px;
+  left: 1070px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-3 {
+  position: absolute;
+  top: 20px;
+  left: 1111px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-4 {
+  position: absolute;
+  top: 20px;
+  left: 1155px;
+  width: 18px;
+  height: 18px;
+}
+
+.rectangle-1 {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  background-color: rgba(184, 189, 197, 1);
+  height: 600px;
+  width: 100%;
+}
+
+.group-039 {
+  position: absolute;
+  top: 60px;
+  none: 0px;
+  background: url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/azemb48stuu-2%3A22?alt=media&token=4813bd8b-6a36-424f-9a10-92c29792c37c);
+  background-size: 100% 100%;
+  height: 600px;
+  width: 100%;
+}
+
+.txt-1045 {
+  position: absolute;
+  top: 310px;
+  left: 490px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 156%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 233px;
+  height: 28px;
+  word-wrap: break-word;
+}
+
+.txt-254 {
+  position: absolute;
+  top: 212px;
+  left: 364px;
+  font-size: 42px;
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+  line-height: 117%;
+  letter-spacing: 0.8px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 486px;
+  height: 99px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}
+
+.txt-926 {
+  position: absolute;
+  top: 184px;
+  left: 446px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 156%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 321px;
+  height: 28px;
+  word-wrap: break-word;
+}
+
+.rectangle-2 {
+  position: absolute;
+  top: 822px;
+  left: 0px;
+  height: 306px;
+  width: 100%;
+}
+
+.frame-5 {
+  position: absolute;
+  top: 968px;
+  left: 507px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-6 {
+  position: absolute;
+  top: 968px;
+  left: 549px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-7 {
+  position: absolute;
+  top: 968px;
+  left: 591px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-8 {
+  position: absolute;
+  top: 968px;
+  left: 633px;
+  width: 18px;
+  height: 18px;
+}
+
+.frame-9 {
+  position: absolute;
+  top: 968px;
+  left: 675px;
+  width: 18px;
+  height: 18px;
+}
+
+.txt-852 {
+  position: absolute;
+  top: 11px;
+  left: 27px;
+  font-size: 23px;
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+  line-height: 142%;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 169px;
+  height: 33px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}
+
+.txt-636 {
+  position: absolute;
+  top: 869px;
+  left: 536px;
+  font-size: 18px;
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 400;
+  line-height: 167%;
+  letter-spacing: 0.4px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 129px;
+  height: 30px;
+  word-wrap: break-word;
+  text-transform: uppercase;
+}
+
+.txt-9310 {
+  position: absolute;
+  top: 909px;
+  left: 476px;
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 179%;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  width: 250px;
+  height: 25px;
+  word-wrap: break-word;
+}
+
+.txt-940 {
+  position: absolute;
+  top: 1076px;
+  left: 40px;
+  font-size: 12px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 208%;
+  color: rgba(255, 255, 255, 1);
+  width: 77px;
+  height: 25px;
+  word-wrap: break-word;
+}
+
+.txt-436 {
+  position: absolute;
+  top: 1076px;
+  left: 136px;
+  font-size: 12px;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 208%;
+  color: rgba(255, 255, 255, 1);
+  width: 79px;
+  height: 25px;
+  word-wrap: break-word;
+}
