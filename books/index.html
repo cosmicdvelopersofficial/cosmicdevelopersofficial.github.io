@@ -1,77 +1,528 @@
-`<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read Our Books!</title>
-</head>
-<body>
-    <div class="desktop-1screen">
-  <div class="flex-col">
-    <div class="cosmic-e-booksvalign-text-middle">COSMIC E-BOOKS</div>
-    <div class="overlap-group">
-      <h1 class="titlevalign-text-middle">BOOKS</h1>
-    </div>
-    <div class="flex-row">
-      <img
-        class="dentro"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/dentro@2x.png"
-      /><img
-        class="pyramid-en"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/pyramid-en@2x.png"
-      /><img
-        class="pyramid-gr"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/pyramid-gr@2x.png"
-      /><img
-        class="scp-entities"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/scp-entities@2x.png"
-      /><img
-        class="backrooms"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/backrooms@2x.png"
-      />
-    </div>
-    <div class="read-container">
-      <a href="https://cosmicebooks.com/books/dentro" target="_blank"
-        ><div class="readvalign-text-middleinter-normal-black-24px">Read</div></a
-      ><a href="https://cosmicebooks.com/books/pyramidEN" target="_blank"
-        ><div class="read-1valign-text-middleinter-normal-black-24px">Read</div></a
-      ><a href="https://cosmicebooks.com/books/pyramidGR/" target="_blank"
-        ><div class="read-2valign-text-middleinter-normal-black-24px">Read</div></a
-      ><a href="https://cosmicebooks.com/books/scp-entities/" target="_blank" class="align-self-flex-center"
-        ><div class="read-3valign-text-middleinter-normal-black-24px">Read</div></a
-      ><a href="https://cosmicebooks.com/books/the-backrooms-guide/" target="_blank" class="align-self-flex-start"
-        ><div class="read-4valign-text-middleinter-normal-black-24px">Read</div></a
-      >
-    </div>
-    <div class="flex-row-1">
-      <img
-        class="neuralinks"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/neuralinks@2x.png"
-      /><img
-        class="backrooms-prison"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/backrooms-prison@2x.png"
-      /><img
-        class="pyramid-gr"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/pyramid-gr-1@2x.png"
-      /><img
-        class="scp-entities-1"
-        src="https://anima-uploads.s3.amazonaws.com/projects/62893b810f1d94aefa20984f/releases/62893b8a942c0ccc76e5401b/img/scp-entities-1@2x.png"
-      />
-    </div>
-  </div>
-  <div class="read-container-1">
-    <a href="https://cosmicebooks.com/books/Neuralinks-Afterlife/" target="_blank"
-      ><div class="readvalign-text-middleinter-normal-black-24px">Read</div></a
-    ><a href="https://cosmicebooks.com/books/backrooms-prison/" target="_blank"
-      ><div class="read-1valign-text-middleinter-normal-black-24px">Read</div></a
-    ><a href="https://cosmicebooks.com/books/typevi/" target="_blank"
-      ><div class="read-2valign-text-middleinter-normal-black-24px">Read</div></a
-    ><a href="http://civilization-that-can-replace-god" target="_blank" class="align-self-flex-start"
-      ><div class="read-5valign-text-middleinter-normal-black-24px">Read</div></a
-    >
-  </div>
-</div>
-</body>
-</html>
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<title>Read Books | Cosmic Ebooks</title>
+		<link rel="icon" href="http://cosmicebooks.com/icon.ico">
+		<link rel="shortcut icon" href="http://cosmicebooks.com/icon.ico">
+		<style>
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-text.min.css");			#world a {text-decoration: none; cursor: pointer;}
+			#world a:hover{opacity: 0.5; text-decoration: underline; cursor: pointer;}
+			.figment-branding {position: fixed; z-index: 10000; display: flex; background-color: #000; border-radius: 8px; padding: 5px 10px; bottom: 5px; right: 15px;}
+			.figment-branding-logo {background-image: url("http://figment.so/favicon.png"); background-size: contain; width: 20px; height: 20px;}
+			.figment-branding a {text-decoration: none; align-self: center; padding-left: 5px; color: #fff; font-family: "Plus Jakarta Text"; font-size: 12px; font-weight: bold;}
+			.figment-branding a:hover {opacity: 0.5;}
+			body {margin: 0;}
+		</style>
+		<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	</head>
+	<body>
+		<div class="figment-branding"><div class="figment-branding-logo"> </div> <a href="https://figment.so/">Built with Figment.so</a></div>		<main id="world"></main>
+		<script>
+			AOS.init()
+
+var SCALABLE_CSS_PROPERTIES=["border-radius","font-size","line-height"],CONTENT_WINDOW_MAX_WIDTH=1200,MOBILE_SCREEN_BREAKPOINT=500,metadata={
+  "desktop": [
+    {
+      "tag": "div",
+      "id": "1:2",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1616,
+      "children": [
+        {
+          "tag": "p",
+          "id": "1:4",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 86,
+          "children": [],
+          "figmaNodeName": "COSMIC E-BOOKS",
+          "figmaNodeType": "TEXT",
+          "content": "COSMIC E-BOOKS",
+          "font": {
+            "name": "Oswald",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "44px",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "div",
+          "id": "1:5",
+          "x": 0,
+          "y": 104,
+          "width": 1440,
+          "height": 393,
+          "children": [],
+          "figmaNodeName": "Rectangle 1",
+          "figmaNodeType": "RECTANGLE",
+          "css": [
+            {
+              "background-color": "rgba(0.000, 0.000, 0.000, 1)",
+              "opacity": 1,
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "1:6",
+          "x": 0,
+          "y": 105,
+          "width": 1440,
+          "height": 392,
+          "children": [],
+          "figmaNodeName": "BOOKS",
+          "figmaNodeType": "TEXT",
+          "content": "BOOKS",
+          "font": {
+            "name": "Montserrat",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "69px",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(255.000, 255.000, 255.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "img",
+          "id": "3:3",
+          "x": 59,
+          "y": 540,
+          "width": 242,
+          "height": 394,
+          "children": [],
+          "figmaNodeName": "DENTRO",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "p",
+          "id": "3:5",
+          "x": 61,
+          "y": 951,
+          "width": 236,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/dentro",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "3:8",
+          "x": 375,
+          "y": 951,
+          "width": 238,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/pyramidEN",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "3:11",
+          "x": 662,
+          "y": 951,
+          "width": 238,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/pyramidGR/",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "3:14",
+          "x": 926,
+          "y": 946,
+          "width": 236,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/scp-entities/",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "3:17",
+          "x": 1174,
+          "y": 938,
+          "width": 236,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/the-backrooms-guide/",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "img",
+          "id": "3:7",
+          "x": 358,
+          "y": 540,
+          "width": 255,
+          "height": 383,
+          "children": [],
+          "figmaNodeName": "PYRAMID-EN",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "img",
+          "id": "3:10",
+          "x": 653,
+          "y": 540,
+          "width": 255,
+          "height": 383,
+          "children": [],
+          "figmaNodeName": "PYRAMID-GR",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "img",
+          "id": "3:13",
+          "x": 929,
+          "y": 540,
+          "width": 230,
+          "height": 383,
+          "children": [],
+          "figmaNodeName": "SCP-ENTITIES",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "img",
+          "id": "3:16",
+          "x": 1180,
+          "y": 540,
+          "width": 230,
+          "height": 383,
+          "children": [],
+          "figmaNodeName": "Backrooms",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "img",
+          "id": "3:18",
+          "x": 44,
+          "y": 1076,
+          "width": 242,
+          "height": 394,
+          "children": [],
+          "figmaNodeName": "Neuralinks",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "p",
+          "id": "3:19",
+          "x": 46,
+          "y": 1487,
+          "width": 236,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/Neuralinks-Afterlife/",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "3:20",
+          "x": 360,
+          "y": 1487,
+          "width": 238,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/backrooms-prison/",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "3:21",
+          "x": 647,
+          "y": 1487,
+          "width": 238,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "https://cosmicebooks.com/books/typevi/",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "p",
+          "id": "3:22",
+          "x": 911,
+          "y": 1482,
+          "width": 236,
+          "height": 35,
+          "children": [],
+          "figmaNodeName": "Read",
+          "figmaNodeType": "TEXT",
+          "content": "Read",
+          "url": "http://civilization-that-can-replace-god",
+          "font": {
+            "name": "Inter",
+            "style": "Regular"
+          },
+          "css": [
+            {
+              "font-size": "24px",
+              "text-decoration": "underline",
+              "text-align": "center",
+              "opacity": 1,
+              "color": "rgba(0.000, 0.000, 0.000, 1)",
+              "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+            }
+          ],
+          "attributes": [
+            {}
+          ]
+        },
+        {
+          "tag": "img",
+          "id": "3:24",
+          "x": 343,
+          "y": 1076,
+          "width": 255,
+          "height": 383,
+          "children": [],
+          "figmaNodeName": "Backrooms-Prison",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "img",
+          "id": "3:25",
+          "x": 638,
+          "y": 1076,
+          "width": 255,
+          "height": 383,
+          "children": [],
+          "figmaNodeName": "PYRAMID-GR",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        },
+        {
+          "tag": "img",
+          "id": "3:26",
+          "x": 914,
+          "y": 1076,
+          "width": 230,
+          "height": 383,
+          "children": [],
+          "figmaNodeName": "SCP-ENTITIES",
+          "figmaNodeType": "RECTANGLE",
+          "imageData": null,
+          "imageDataPromise": null
+        }
+      ],
+      "figmaNodeName": "Desktop - 1",
+      "figmaNodeType": "FRAME",
+      "css": [
+        {
+          "background-color": "rgba(255.000, 255.000, 255.000, 1)",
+          "opacity": 1,
+          "transform": "matrix(1.00, 0.00, 0.00, 1.00, 0, 0)"
+        }
+      ],
+      "attributes": [
+        {}
+      ]
+    }
+  ]
+},world={
+  "mobile": null,
+  "desktop": {
+    "bounds": {
+      "w": 1440,
+      "h": 1616
+    },
+    "originOffset": {
+      "x": 0,
+      "y": 0
+    }
+  }
+};function scaleToWorld(a,b,c){const d=b.offsetWidth,{bounds:e}=c,f=d/e.w,g=d>CONTENT_WINDOW_MAX_WIDTH?CONTENT_WINDOW_MAX_WIDTH/e.w:f,h=d>CONTENT_WINDOW_MAX_WIDTH?(d-CONTENT_WINDOW_MAX_WIDTH)/2:0;e.w*=f,e.h*=f,scaleToWorldRecursive(a,b,e,f,g,h)}function scaleToWorldRecursive(a,b,c,d,e,f){for(let g of a){let a,h;objectIsFullScreen(g.width,d,c.w)?(h="fullWidth",a=a=>{scaleAllCommon(a,d),a.y*=e,a.height*=e}):(h="contentWindow",a=a=>{scaleAllCommon(a,e),a.y*=e,a.height*=e,a.x+=f}),a(g),g.children&&(console.log("HERE"),("FRAME"===g.figmaNodeType||"GROUP"===g.figmaNodeType||"COMPONENT"===g.figmaNodeType||"INSTANCE"===g.figmaNodeType)&&"contentWindow"===h?scaleToWorldRecursive(g.children,b,c,d,e,0):scaleToWorldRecursive(g.children,b,c,d,e,f))}}function renderIntoDOMNode(a,b,c,d=!1,e=!1){const f=a,g=d?"desktop":a.offsetWidth>MOBILE_SCREEN_BREAKPOINT?"desktop":"mobile",h=b[g];let i=c[g];if(!h||!i)return;const j=JSON.parse(JSON.stringify(h)),k=JSON.parse(JSON.stringify(i));scaleToWorld(j,f,k);const l=document.createElement("link");l.rel="stylesheet",l.href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css";const m=document.createElement("script");m.src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js",document.head.appendChild(l),document.head.appendChild(m);const n=renderIntoDOMNodeRecursive(f,j),o=document.createElement("style");o.textContent=Object.keys(n).reduce((a,b)=>{a+="."+b+" {\n";const c=n[b];return Object.keys(c).forEach(b=>{a+="  "+b+": "+c[b]+";\n"}),a+="}\n\n",a},""),document.head.appendChild(o),registerListeners(f,b,c,e)}function renderIntoDOMNodeRecursive(a,b,c=[],d={}){const e=a;e.innerHTML="";let f=0;for(let g of b){let a=document.createElement(g.tag),b=a;if(a.id=g.id,a.setAttribute("website-element","true"),a.setAttribute("figma-node-name",g.figmaNodeName),a.setAttribute("figma-node-type",g.figmaNodeType),a.style.position="absolute",a.style.top=g.y+"px",a.style.left=g.x+"px",a.style.width=g.width+"px",a.style.height=g.height+"px",a.style.zIndex=f++ +"",a.style.marginBlockStart="0",g.content&&(a.innerText=g.content),g.link&&(b=document.createElement("a"),b.setAttribute("href",g.link),b.appendChild(a)),g.font&&g.font.name&&(a.style.left=g.x-2.5+"px",a.style.width=g.width+5+"px",0<g.font.name.indexOf("Jakarta")&&(g.font.name="Plus Jakarta Text",a.style.left=g.x-5+"px",a.style.width=g.width+18+"px"),a.style.fontFamily=g.font.name+", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",a.style.fontWeight=g.font.style,0>c.indexOf(g.font.name))){c.push(g.font.name);let a=g.font.name.replace(" ","+"),b=document.createElement("link");b.href=`https://fonts.googleapis.com/css2?family=${a}:wght@300;400;500;600;700&display=swap`,b.rel="stylesheet",document.head.appendChild(b)}"img"===g.tag&&(a.src=isEditor()?`/api/websites/image-proxy/${"mealy-beach-qicc"}_${g.id}.png`:`https://storage.googleapis.com/figment-image-store/${"mealy-beach-qicc"}_${g.id}.png`,a.lazy=!0,a.style.objectFit="cover",a.style.overflow="visible"),g.attributes&&Object.keys(g.attributes[0]).forEach(b=>{a.setAttribute(b,g.attributes[0][b])}),g.css&&Object.keys(g.css[0]).forEach(b=>{if("&:hover"===b){const c="effect_"+g.id.replace(/:/g,"-"),e=g.css[0][b];d[c+":hover"]={},Object.keys(e).forEach(a=>{d[c+":hover"][a]=e[a]}),a.classList.add(c)}else a.style[b]=g.css[0][b]}),g.children&&g.children.length&&(d=renderIntoDOMNodeRecursive(a,g.children,c,d)),e.appendChild(b)}return d}function registerListeners(a,b,c,d=!1){let e=!1,f=a.offsetWidth;d||window.addEventListener("resize",()=>{let d=a.offsetWidth;e||f===d||(setTimeout(()=>{e=!1},500),e=!0,handleResize(a,b,c,f,d),f=d)})}function handleResize(a,b,c,d,e){const f=d>CONTENT_WINDOW_MAX_WIDTH&&e>CONTENT_WINDOW_MAX_WIDTH?1:d<CONTENT_WINDOW_MAX_WIDTH&&e<CONTENT_WINDOW_MAX_WIDTH?e/d:d>CONTENT_WINDOW_MAX_WIDTH&&e<CONTENT_WINDOW_MAX_WIDTH||d<CONTENT_WINDOW_MAX_WIDTH&&e>CONTENT_WINDOW_MAX_WIDTH?CONTENT_WINDOW_MAX_WIDTH/e:1,g=e>CONTENT_WINDOW_MAX_WIDTH?(e-CONTENT_WINDOW_MAX_WIDTH)/2:0,h=getActiveScreenType(d),i=getActiveScreenType(e);renderIntoDOMNode(a,b,c)}function handleResizeRecursive(a,b,c,d,e){const f=getScaleType(a.offsetWidth,1,b);"fullWidth"===f?scaleAllCommonDom(a,c):"contentWindow"===f&&(scaleAllCommonDom(a,d),e&&(a.style.left=e+"px")),a.style.top=numberifyPXString(a.style.top)*d+"px",a.style.height=numberifyPXString(a.style.height)*d+"px";const g=a.getAttribute("figma-node-type");for(let h of a.children)"FRAME"===g||"COMPONENT"===g||"INSTANCE"===g||"GROUP"===g&&"contentWindow"===f?handleResizeRecursive(h,b,c,d,0):handleResizeRecursive(h,b,c,d,e)}function getActiveScreenType(a){return a>MOBILE_SCREEN_BREAKPOINT?"desktop":"mobile"}function scaleAllCommon(a,b){a.x*=b,a.width*=b,a.css&&Object.keys(a.css[0]).forEach(c=>{if(SCALABLE_CSS_PROPERTIES.includes(c)){const d=a.css[0][c];if(d.endsWith("px")){const e=d.slice(0,d.length-2);a.css[0][c]=e*b+"px"}}})}function scaleAllCommonDom(a,b){a.style.width=numberifyPXString(a.style.width)*b+"px",a.style.left=numberifyPXString(a.style.left)*b+"px"}function numberifyPXString(a){if(a.endsWith("px"))return+a.slice(0,a.length-2);throw new Error("Unable to numberify the PX String: "+a)}function objectIsFullScreen(a,b,c){return a*b>=c}function isEditor(){return"figment.so"===window.location.host||"localhost:3000"===window.location.host}function getScaleType(a,b,c){return objectIsFullScreen(a,b,c)?"fullWidth":"contentWindow"}var worldNode=document.querySelector("#world");renderIntoDOMNode(worldNode,metadata,world);
+		</script>
+	</body>
