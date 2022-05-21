@@ -1,4 +1,4 @@
-  #Holid
+#Holid
 holid.io, 611, DIRECT
 adform.com, 1612, RESELLER
 improvedigital.com, 1134, RESELLER
