@@ -17,6 +17,36 @@
 
      </head>
      <body>
+          <!-- Messenger Πρόσθετο συνομιλίας Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Πρόσθετο συνομιλίας code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112883888063622");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
           
           <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav"><div class="navigation-wrap"><h1 class="heading">COSMIC E-BOOKS</h1></div><div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div></div><div class="section cc-store-home-wrap"><div class="intro-header"><div class="intro-content cc-homepage"><div class="intro-text"><div class="heading-jumbo">Cosmic E-books</div><div class="paragraph-bigger cc-bigger-white-light">Sci-Fi E-books</div><a href="books" target="_blank" class="w-button">Read Books</a></div><a href="linktr.ee/cosmicebooks" target="_blank" class="w-button">Dowload</a></div><a href="apply-for-author.html" target="_blank" class="w-button">Become an author</a></div></div><div class="container"><div class="motto-wrap"><div class="label cc-light"><img src="./Cosmmic_files/6287828f82b19d164d1c2f79_placeholder 1.svg" id="w-node-_86e64837-0616-515b-4568-76c147234d4c-ea1c2f51" alt=""></div></div></div></div><div class="section"><div class="container"><div class="blog-heading"><div class="label cc-light"></script><![endif]-->
 
