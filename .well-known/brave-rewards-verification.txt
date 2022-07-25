@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cosmicebooks.com
+Token: c5b877585510440c183ae35d0edab25598b3e2035197a4d29471a4dc7c1625ed
